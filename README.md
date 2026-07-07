@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/d0071f61-93b0-4c0b-9ead-f4f50f406d59
 <img width="1198" height="819" alt="Screenshot 2026-07-07 045240" src="https://github.com/user-attachments/assets/0f87f069-2f3b-4268-9c83-5d9ab17a8c98" />
 
 
-<img width="1776" height="1193" alt="Screenshot 2026-07-07 025325" src="https://github.com/user-attachments/assets/34d452c0-af31-41ae-866a-66b3a219ce25" />
+
 
 
 ---
