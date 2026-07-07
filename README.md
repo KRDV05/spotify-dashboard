@@ -3,7 +3,8 @@
 A full-stack analytics and recommendation dashboard for your personal Spotify library. Pulls your saved songs, top tracks, and followed artists via the Spotify Web API, persists them to SQLite, and surfaces insights through SQL-powered analytics and set-difference-based recommendations.
 
 
-> Replace `docs/demo.gif` with a real recording — see "Recording a Demo" below.
+<img width="1032" height="321" alt="Screenshot 2026-07-07 130934" src="https://github.com/user-attachments/assets/8c30f9a2-02a2-4c24-a9ad-71fede55f076" />
+
 
 ---
 
