@@ -6,6 +6,12 @@ A full-stack analytics and recommendation dashboard for your personal Spotify li
 <img width="1032" height="321" alt="Screenshot 2026-07-07 130934" src="https://github.com/user-attachments/assets/8c30f9a2-02a2-4c24-a9ad-71fede55f076" />
 
 
+https://github.com/user-attachments/assets/d0071f61-93b0-4c0b-9ead-f4f50f406d59
+
+
+<img width="1198" height="819" alt="Screenshot 2026-07-07 045240" src="https://github.com/user-attachments/assets/0f87f069-2f3b-4268-9c83-5d9ab17a8c98" />
+
+
 ---
 
 ## What It Does
