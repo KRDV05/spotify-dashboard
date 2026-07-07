@@ -1,0 +1,38 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Secrets & databases
+.env
+*.env.local
+backend/data/*.db
+backend/data/*.db-journal
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+build/
+*.tsbuildinfo
+# Spotipy OAuth cache
+backend/.cache
+.cache
