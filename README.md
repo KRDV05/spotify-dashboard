@@ -95,28 +95,5 @@ Frontend runs on http://127.0.0.1:5173. Open it and click "Log in with Spotify."
 
 ---
 
-## Project Structure
-spotify-dashboard/
- ├── backend/
- │ ├── main.py # FastAPI app + route wiring
- │ ├── requirements.txt
- │ ├── .env.example
- │ ├── src/
- │ │ ├── auth.py # OAuth flow + token refresh
- │ │ ├── spotify_client.py # Spotify Web API wrappers
- │ │ ├── database.py # SQLite persistence
- │ │ ├── analytics.py # SQL analytics queries
- │ │ └── recommender.py # Set-difference recommendations
- │ └── data/ # SQLite DB lives here (gitignored)
- └── frontend/
- ├── src/
- │ ├── App.jsx # Root layout + sync orchestration
- │ ├── api.js # Backend client
- │ └── components/
- │ ├── Login.jsx
- │ ├── Recommendations.jsx
- │ ├── Analytics.jsx
- │ └── TabNav.jsx
- └── package.json
 ## License 
 MIT 
