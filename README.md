@@ -24,15 +24,15 @@ https://github.com/user-attachments/assets/d0071f61-93b0-4c0b-9ead-f4f50f406d59
   - *Forgotten Favorites* — liked songs from artists you follow but aren't in your current top tracks. 
   - *Outside Your Rotation* — liked songs from artists outside your top tracks
 - **Analytics:** interactive charts and stat cards showing library size, artist diversity, listening hours, song length distribution, and songs by decade.
-- **Time-range aware:** switch between 4-week, 6-month, and all-time views. 
+- **Time-range:** switch between 4-week, 6-month, and all-time views. 
 
 ---
 
 ## Tech Stack
 
-| Frontend | React 18, Vite, Tailwind CSS, Recharts |
+| Frontend | React, Vite, Tailwind CSS, Recharts |
 | Backend | FastAPI, Spotipy, Pandas|
-| Database | SQLite (via `pandas.to_sql`) |
+| Database | SQLite |
 | Auth | Spotify OAuth 2.0 with automatic token refresh |
 | Dev tooling | Uvicorn, python-dotenv |
 
@@ -80,7 +80,7 @@ cp .env.example .env   # then fill in your Spotify credentials
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-Backend runs on http://127.0.0.1:8000. Interactive API docs at http://127.0.0.1:8000/docs.
+Backend runs on http://127.0.0.1:8000. API docs at http://127.0.0.1:8000/docs.
 
 ### Frontend
 
