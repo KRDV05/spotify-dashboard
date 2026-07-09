@@ -1,4 +1,4 @@
-#  Spotify Dashboard
+#  spotify dashboard
 
 A full-stack analytics and recommendation dashboard for your personal Spotify library. Pulls your saved songs, top tracks, and followed artists via the Spotify Web API, persists them to SQLite, and surfaces insights through SQL-powered analytics and set-difference-based recommendations.
 
