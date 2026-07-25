@@ -38,25 +38,6 @@ https://github.com/user-attachments/assets/d0071f61-93b0-4c0b-9ead-f4f50f406d59
 
 ---
 
-## Architecture
-User browser
-│
-▼
-React SPA (Vite dev server, port 5173)
-│
-│ fetch(credentials: include)
-▼
-FastAPI backend (Uvicorn, port 8000)
-│
-├── OAuth flow → Spotify Accounts
-├── Session cookie stores tokens (auto-refreshed)
-│
-├── /api/sync → Spotify Web API → Pandas → SQLite
-├── /api/recommendations → SQL → Pandas → JSON
-└── /api/analytics → SQL → Pandas → JSON
-│
-▼
-SQLite (spotify_data.db) 
 ### Prerequisites
 
 - Python 3.11+
@@ -79,8 +60,6 @@ pip install -r requirements.txt
 cp .env.example .env   # then fill in your Spotify credentials
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
-
-Backend runs on http://127.0.0.1:8000. API docs at http://127.0.0.1:8000/docs.
 
 ### Frontend
 
